@@ -6,6 +6,7 @@ int main ()
     int **y= &x;
     *x=7; // a is change 
     printf("%p\n",x);
-    printf("%p"&x);
+    printf("%p\n",&x);
+    printf("%d",a);
     return 0;
 }
